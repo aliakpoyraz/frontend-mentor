@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+:root {
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-stone-100: #f3e6d8;
+  --clr-stone-150: #e4ded8;
+  --clr-stone-600: #5f574e;
+  --clr-stone-900: #302d2c;
+  --clr-brown-800: #854632;
+  --clr-rose-800: #7b284f;
+  --clr-rose-50: #fff5fa;
+
+  --ff-heading: 'Young Serif', serif;
+  --ff-body: 'Outfit', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--ff-body);
+  background-color: var(--clr-stone-100);
+  color: var(--clr-stone-600);
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.recipe-container {
+  background: var(--clr-white);
+  max-width: 736px;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+.recipe-image {
+  width: 100%;
+  border-radius: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-family: var(--ff-heading);
+  font-size: 2.25rem;
+  color: var(--clr-stone-900);
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.prep-time {
+  background-color: var(--clr-rose-50);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.prep-time h2 {
+  font-size: 1.125rem;
+  color: var(--clr-rose-800);
+  margin-bottom: 0.75rem;
+}
+
+.prep-time ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.ingredients, .instructions, .nutrition {
+  margin-bottom: 2rem;
+}
+
+.ingredients h2,
+.instructions h2,
+.nutrition h2 {
+  font-family: var(--ff-heading);
+  color: var(--clr-brown-800);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.ingredients ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.instructions ol {
+  padding-left: 1.25rem;
+}
+
+.instructions ol li {
+  margin-bottom: 0.75rem;
+}
+
+.instructions strong {
+  color: var(--clr-stone-900);
+}
+
+.nutrition p {
+  margin-bottom: 1rem;
+}
+
+.nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition table tr {
+  border-bottom: 1px solid var(--clr-stone-150);
+}
+
+.nutrition table td {
+  padding: 0.75rem 0;
+}
+
+.nutrition .value {
+  color: var(--clr-brown-800);
+  font-weight: 700;
+}

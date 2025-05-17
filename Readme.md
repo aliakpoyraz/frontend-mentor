@@ -31,7 +31,7 @@ Bu projelerle amacım:
 ## 📬 İletişim
 
 Herhangi bir öneriniz veya geri bildiriminiz olursa benimle iletişime geçebilirsiniz:  
-📧 aliakpoyraz@example.com  
+📧 aliakpoyraz@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/aliakpoyraz)  
 🐙 [GitHub](https://github.com/aliakpoyraz)
 
